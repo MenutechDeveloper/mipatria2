@@ -1,0 +1,170 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.ir-arriba {
+  display: none;
+  padding: 20px;
+  border: 2px #2e8b16 solid;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 10000;
+  color: #2e8b16;
+}
+
+.logo {
+  width: 130px;
+}
+
+.portada {
+  height: 650px;
+  background: url("./portpatria.jpg");
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 992px) {
+ .portada{
+width: 100%;
+height: 300px;
+ }
+}
+
+
+
+#navcol-1 a {
+  color: #fff;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.infor {
+  text-align: center;
+  color: #fff;
+}
+
+.infor h1 {
+  color: #847532;
+}
+
+.infor h3 {
+  color: #6d3734;
+}
+.infor p {
+  font-size: 22px;
+}
+
+body {
+  background: #ddc7ab;
+}
+
+.photo-gallery {
+  background: none;
+}
+@media (max-width: 992px) {
+  .photo-gallery{
+ width: 60%;
+margin: auto;
+  }
+ }
+
+.contact-clean {
+  background: none;
+}
+
+.logoform {
+  text-align: center;
+}
+
+.logoform img {
+  width: 120px;
+}
+
+.boton img {
+  width: 100%;
+}
+
+.boton {
+  width: 100%;
+  height: 450px;
+  background: url("./portpatria.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+ 
+}
+
+@media (max-width: 992px) {
+  .boton{
+ width: 100%;
+ height: 300px;
+ background-position: center;
+ background-attachment: local;
+  }
+ }
+
+.botonmenu {
+  padding: 15px 35px;
+  background: #857633;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.agradecimientos {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.agradecimientos img {
+  width: 50%;
+}
+
+.agradecimientos .btn {
+  padding: 15px 35px;
+  border: #fff 2px solid;
+  border-radius: 20px;
+}
+
+.footer-basic {
+  background: rgba(0,0,0,0.05);
+  color: #fff;
+}
+
+.about {
+  text-align: center;
+  color: #fff;
+  max-width: 800px;
+  margin: auto;
+}
+
+.botonesordenar {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botonOrdenar{
+  color: white;
+  background: rgb(230, 157, 0);
+  padding: 15px 30px;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+}
+#brand{
+  text-align: center;
+}
